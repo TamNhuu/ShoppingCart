@@ -14,13 +14,10 @@ import { PromoCodeComponent } from './promo-code/promo-code.component';
     CartHeaderComponent,
     CartSummaryComponent,
     ProductListComponent,
-    PromoCodeComponent
+    PromoCodeComponent,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
